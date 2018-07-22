@@ -37,6 +37,6 @@ if (CATKIN_ENABLE_TESTING)
   #roslint_add_test()
 
   find_package(roslaunch REQUIRED)
-  roslaunch_add_file_check(launch/LMS1xx.launch)
+  roslaunch_add_file_check(launch/lidar_bringup.launch)
 endif()
 
